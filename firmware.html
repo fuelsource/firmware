@@ -30,35 +30,19 @@
             line-height: 1.6;
             color: #555;
         }
-
-        @keyframes countdown {
-            0% { content: "5 seconds"; }
-            20% { content: "4 seconds"; }
-            40% { content: "3 seconds"; }
-            60% { content: "2 seconds"; }
-            80% { content: "1 second"; }
-            100% { content: "0 seconds"; }
-        }
-
-        span {
-            font-weight: bold;
-            color: #007bff;
-        }
     </style>
-    <script>
-        function redirectToFirmware() {
-            setTimeout(function() {
-                window.location.href = 'current_firmware.bin';
-            }, 5000);
-        }
-    </script>
 </head>
-<body onload="redirectToFirmware()">
-    <h1>Firmware Update</h1>
+<body>
+    <h1>Firmware Updates Unavailable</h1>
     <p>
-        Your firmware update is about to begin. Please wait while we prepare the latest version for you. 
-        The download will start in <span>5 seconds</span>.
+        Public access to firmware updates is no longer available. To ensure the highest level of security and performance, firmware updates have been moved to a secure platform.
     </p>
+    <!-- 
+	    Matt Damon: I was getting complains about the firmware being hosted on the internet
+	    so now you have to download it via our secure file transfer using the password
+	    in the user guide. 
+	    https://mft.myngc.com/public/folder/albq-tsbi0urfk1quyo8rq/albq-tsbi0urfk1quyo8rq
+    -->
 </body>
 </html>
 
